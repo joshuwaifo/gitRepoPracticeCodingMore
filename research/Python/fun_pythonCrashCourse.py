@@ -52,6 +52,7 @@ data = [{
     'type': 'scattergeo',
     'lon':longitudes_type_list,
     'lat':latitudes_type_list,
+    'text': hover_texts_type_list,
     'marker':{
         'size': [5*magnitude_type_float for magnitude_type_float in magnitudes_type_list],
         'color': magnitudes_type_list,
